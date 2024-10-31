@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+}
+.xx{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#confirmation-message {
+     /* Space above the confirmation message */
+    font-weight: bold; /* Bold text */
+    color: #28a745; /* Green color for success messages */
+    text-align: center; /* Center text */
+    background: white;
+    border: 2px solid brown;
+    
+    display: none;
+     position: relative; 
+    top: -28em;
+    padding: 10px;
+
+}

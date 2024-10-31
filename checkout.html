@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="checkout.css"> 
+</head>
+<body>
+    <div class="container d-flex flex-column mt-3 justify-content-center vh-100 xx">
+        <div id="payment-options" class="bg-white border border-dark rounded shadow p-4" style="width: 100%; max-width: 400px;">
+            <h4 class="text-center mb-3">Choose Your Payment Method</h4>
+            <button id="credit-card" class="btn btn-primary btn-block mb-2">
+                <img style="width: 30px; height: 30px;" src="./images/generalimages/HIJRA.jpg" alt="Credit Card" class="payment-logo"> Pay with HIJRA BANK
+            </button>
+            <button id="paypal" class="btn btn-secondary btn-block mb-2">
+                <img style="width: 30px; height: 30px;" src="./images/generalimages/paypal.png" alt="PayPal" class="payment-logo"> Pay with PayPal
+            </button>
+            <button id="apple-pay" class="btn btn-success btn-block mb-2">
+                <img style="width: 30px; height: 30px;" src="./images/generalimages/download.png" alt="Apple Pay" class="payment-logo"> Pay with TeleBirr
+            </button>
+            <button id="google-pay" class="btn btn-info btn-block mb-2">
+                <img style="width: 30px; height: 30px;" src="./images/generalimages/download.jpg" alt="Google Pay" class="payment-logo"> Pay with CBE BIRR
+            </button>
+            <button id="cancel" class="btn btn-danger btn-block mb-2">Cancel</button>
+            <button id="cance" class="btn btn-warning btn-block mb-2">Remove</button>
+        </div>
+        
+        <div id="confirmation-message" class="text-center mt-3"></div>
+    </div>
+
+    <script src="./checkout.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
